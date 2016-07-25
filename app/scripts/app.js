@@ -8,7 +8,7 @@
  *
  * Main module of the application.
  */
- 
+
 angular
   .module('adminApp', [
     'ngAnimate',
@@ -24,25 +24,21 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/lower', {
-        templateUrl: 'views/lowercase.html',
-        controller: 'LowerCaseCtrl'
-      })
-      .when('/upper', {
-        templateUrl: 'views/uppercase.html',
-        controller: 'UpperCaseCtrl'
-      })
-      .when('/string', {
-        templateUrl: 'views/isstring.html',
-        controller: 'IsStringCtrl'
-      })
-      .when('/number', {
-        templateUrl: 'views/isnumber.html',
-        controller: 'IsNumberCtrl'
-      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
+      })
+      .when('/include', {
+        templateUrl: 'views/include.html',
+        controller: 'IncludeCtrl'
+      })
+      .when('/code', {
+        templateUrl: 'views/code.html',
+        controller: 'CodeCtrl'
+      })
+      .when('/cross', {
+        templateUrl: 'views/cross.html',
+        controller: 'CrossCtrl'
       })
       .otherwise({
         redirectTo: '/'

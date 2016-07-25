@@ -19,5 +19,5 @@ angular.module('adminApp')
         'blog':'http://javascriptx.wordpress.com'
     };
     $scope.curso='Desarrollo de Aplicaciones Web basadas en AngularJS';
-    $scope.tema='Funciones de Utileria de AngularJS';
+    $scope.tema='Includes de AngularJS';
   });

@@ -10,8 +10,8 @@
 angular.module('adminApp')
   .controller('MainCtrl', function ($scope) {
     activeMenu('main');
-    $scope.curso='Desarrollo de Aplicaciones Web con AngularJS - Funciones de utileria';
+    $scope.curso='Desarrollo de Aplicaciones Web con AngularJS - Includes';
     $scope.autor = "Christian Portilla Pauca";
-    
+
   }
 );
