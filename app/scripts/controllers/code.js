@@ -10,5 +10,11 @@
 angular.module('adminApp')
   .controller('CodeCtrl', function ($scope) {
     activeMenu('code');
-    
+
+    $scope.nombre = 'juan ';
+
+    $scope.apellidos = "martinez";
+
+    $scope.email = 'juan@gmail.com';
+
   });

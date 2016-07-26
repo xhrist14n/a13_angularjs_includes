@@ -12,3 +12,14 @@ angular.module('adminApp')
     activeMenu('cross');
 
   });
+
+  app.config(
+      function($sceDelegateProvider) {
+        $sceDelegateProvider.resourceUrlWhitelist(
+          [
+            'http://localhost:9000/**',
+            'http://www.refsnesdata.no/**'
+          ]
+        );
+      }
+  );
